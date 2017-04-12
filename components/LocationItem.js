@@ -17,7 +17,7 @@ var LocationItem = React.createClass({
 		return (
 			<a className={cn} onClick={this.handleClick}>
 				{this.props.address}
-				<span className="createdAt">{ moment(this.props.timestamp).fromNow() }</span>
+				<span className="created-at">{ moment(this.props.timestamp).fromNow() }</span>
 				<span className="glyphicon glyphicon-menu-right"></span>
 			</a>
 		);

@@ -22,7 +22,7 @@ var Search = React.createClass({
 
 	render() {
 		return (
-			<form id="geocoding_form" className="form-horizontal" onSubmit={this.handleSubmit}>
+			<form id="geocoding-form" className="form-horizontal" onSubmit={this.handleSubmit}>
 				<div className="form-group">
 					<div className="col-xs-12 col-md-6 col-md-offset-3">
 						<div className="input-group">
